@@ -1,5 +1,5 @@
 # This file is for Terraform IaC - including a VPC with 2 subnets (public and private), IG, RTs and SG configured accordingly
-```JSON
+```HCL
 # Step 1: Mention the provider:
 
 provider "aws" {
