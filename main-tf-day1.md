@@ -1,5 +1,5 @@
 # This file is for Terraform IaC support-configuration
-```JSON
+```HCL
 # Step 1: Mention the provider:
 provider "aws" {
     # What Region would we like the resource to be created in:
