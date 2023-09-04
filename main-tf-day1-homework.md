@@ -1,6 +1,7 @@
 # This file is for Terraform IaC - including a VPC with 2 subnets (public and private), IG, RTs and SG configured accordingly
-
+```JSON
 # Step 1: Mention the provider:
+
 provider "aws" {
     # What Region would we like the resource to be created in:
     region = var.region
@@ -111,3 +112,5 @@ resource "aws_security_group" "florina_HMRC_SG_private" {
 }
 
 # As for the Private subnet there has been no RT directly associated, it will be associated by default with the default RT that allows local access across the VPC.
+
+```

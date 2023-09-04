@@ -1,5 +1,5 @@
 # This file is for Terraform IaC support-configuration
-
+```JSON
 # Step 1: Mention the provider:
 provider "aws" {
     # What Region would we like the resource to be created in:
@@ -23,5 +23,5 @@ resource "aws_instance" "florina-hmrc-first-vm" {
     }
 }
 
-
+```
 
