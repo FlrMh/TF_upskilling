@@ -28,7 +28,7 @@
     - When *runing terraform commands* based on a specific main.tf, your location in the terminal *must be in the directory containing that specific main.tf*.
     - First thing to be mentioned in a main.tf file is the **provider**, an the syntax would look as follows (at the simplest level):
 
-    ![](images/porivde-config.PNG)
+    ![](images/provider-config.PNG)
 
     - To initialize the terraform backed (in this case, on our device) that specifies the provider that we use, run:
     ```
@@ -44,7 +44,7 @@
     - In order to be able to create resources in aws via terraform, we must encode the AWS access key and secret access key as environment variables (on our device). **We must never hardcode the aceess keys from AWS in main.tf or anywhere else in the terraform project!**
     - To create resources, we must no create the syntax accordingly. For an ec2 instance hosting linux OS, the syntax would look as follows (at a basic level):
     
-    ![](images/main-file.PNG)
+    ![](images/maintf-file.PNG)
 
     - To check the code for errors, run:
     ```
