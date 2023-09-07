@@ -3,4 +3,3 @@
 terraform.tfstate
 terraform.tfstate.backup
 variables.tf
-*outputs.tf
