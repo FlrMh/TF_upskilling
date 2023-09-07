@@ -17,6 +17,8 @@ module "ec2-module" {
     }
 }
 
+
+
 # Set up GitHub provider
 
 provider "github" {
