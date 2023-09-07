@@ -15,7 +15,7 @@ resource "aws_instance" "florina-hmrc-first-vm" {
     # Linux ubuntu 18.04Lts
 
     #type of instance
-    instance_type = "t2.micro"
+    instance_type = var.instance_type
 
     # tags to specify owner
     tags = {
