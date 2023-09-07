@@ -3,4 +3,4 @@
 terraform.tfstate
 terraform.tfstate.backup
 variables.tf
-/modules/ec2-modules
+outputs.tf
