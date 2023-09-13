@@ -5,4 +5,9 @@ resource "aws_instance" "florina-hmrc-first-vm" {
 
     #type of instance
     instance_type = var.ec2_instance_type
+
+    # tags to specify owner
+    tags = {
+        Name = "florina_hmrc_upskilling"
+    }
 }
