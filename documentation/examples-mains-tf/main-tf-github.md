@@ -1,5 +1,5 @@
 # Set up GitHub provider
-
+```HCL
 provider "github" {
     token = var.github_token
 }
@@ -9,4 +9,4 @@ resource "github_repository" "example-git-repo-tf" {
     description = "repo created with tf"
     visibility  = "public"
 }
-
+```
